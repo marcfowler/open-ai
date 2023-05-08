@@ -6,16 +6,16 @@ use Exception;
 
 class OpenAi
 {
-    private string $engine = "davinci";
-    private string $model = "text-davinci-002";
-    private string $chatModel = "gpt-3.5-turbo";
-    private array $headers;
-    private array $contentTypes;
-    private int $timeout = 0;
-    private object $stream_method;
-    private string $customUrl = "";
-    private string $proxy = "";
-    private array $curlInfo = [];
+    private $engine = "davinci";
+    private $model = "text-davinci-002";
+    private $chatModel = "gpt-3.5-turbo";
+    private $headers;
+    private $contentTypes;
+    private $timeout = 0;
+    private $stream_method;
+    private $customUrl = "";
+    private $proxy = "";
+    private $curlInfo = [];
 
     public function __construct($OPENAI_API_KEY)
     {

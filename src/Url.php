@@ -4,9 +4,9 @@ namespace Orhanerday\OpenAi;
 
 class Url
 {
-    public const ORIGIN = 'https://api.openai.com';
-    public const API_VERSION = 'v1';
-    public const OPEN_AI_URL = self::ORIGIN . "/" . self::API_VERSION;
+    const ORIGIN = 'https://api.openai.com';
+    const API_VERSION = 'v1';
+    const OPEN_AI_URL = self::ORIGIN . "/" . self::API_VERSION;
 
     /**
      * @deprecated
